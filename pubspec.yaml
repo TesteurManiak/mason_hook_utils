@@ -1,0 +1,14 @@
+name: mason_hook_utils
+description: A collection of utilities to use inside mason hooks when creating bricks.
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  mason: ^0.1.0-dev.49
+  path: ^1.8.3
+  pubspec_parse: ^1.2.3
+
+dev_dependencies:
+  fd_lints: ^2.0.1
